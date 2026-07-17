@@ -1,0 +1,10 @@
+.demo-field,
+.demo-result {
+  padding: 14px 22px;
+  align-items: center;
+  text-align: center;
+}
+
+.space-key {
+  text-align: center;
+}
