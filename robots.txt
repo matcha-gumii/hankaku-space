@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://matcha-gumii.github.io/hankaku-space/sitemap.xml

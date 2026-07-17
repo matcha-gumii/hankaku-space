@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Hankaku Space｜Macの日本語入力を半角スペースに</title>
+  <meta name="description" content="日本語入力中に普通のSpaceを押すだけで半角スペースを入力できる、無料のMac用メニューバーアプリです。">
+  <meta name="theme-color" content="#f7faff">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="ja_JP">
+  <meta property="og:title" content="Hankaku Space｜日本語入力中のSpaceを、いつでも半角に。">
+  <meta property="og:description" content="入力モードを切り替える小さな手間を、静かになくすMac用メニューバーアプリ。">
+  <meta property="og:url" content="https://matcha-gumii.github.io/hankaku-space/">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="canonical" href="https://matcha-gumii.github.io/hankaku-space/">
+  <link rel="icon" href="HankakuSpace/Assets.xcassets/AppIcon.appiconset/icon_32x32.png">
+  <link rel="apple-touch-icon" href="HankakuSpace/Assets.xcassets/AppIcon.appiconset/icon_128x128@2x.png">
+  <link rel="stylesheet" href="site-assets/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="Hankaku Space トップ">
+      <img src="HankakuSpace/Assets.xcassets/AppIcon.appiconset/icon_32x32@2x.png" alt="">
+      <span>Hankaku Space</span>
+    </a>
+    <nav aria-label="メインナビゲーション">
+      <a href="#features">特徴</a>
+      <a href="#install">インストール</a>
+      <a href="#faq">よくある質問</a>
+      <a href="https://github.com/matcha-gumii/hankaku-space">GitHub</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <img class="app-icon" src="HankakuSpace/Artwork/AppIcon-source.png" alt="Hankaku Spaceのアプリアイコン">
+      <p class="eyebrow">HANKAKU SPACE FOR MAC</p>
+      <h1>日本語入力中のSpaceを、<br>いつでも半角に。</h1>
+      <p class="hero-copy">入力モードを切り替える小さな手間を、静かになくす。<br>Macのメニューバーに常駐する、無料のシンプルなアプリです。</p>
+      <div class="hero-actions">
+        <a class="primary-button" href="https://github.com/matcha-gumii/hankaku-space/releases/latest/download/HankakuSpace.dmg">無料でダウンロード <span aria-hidden="true">↓</span></a>
+        <p>macOS 26以降・Apple Silicon<br><small>バージョン 1.0.0</small></p>
+      </div>
+    </section>
+
+    <section class="demo" aria-label="動作イメージ">
+      <div class="window-bar" aria-hidden="true"><i></i><i></i><i></i></div>
+      <div class="demo-content">
+        <div class="demo-field"><small>日本語入力</small><strong>あしたは晴れ</strong></div>
+        <span class="plus" aria-hidden="true">＋</span>
+        <div class="space-key">Space</div>
+        <span class="arrow" aria-hidden="true">→</span>
+        <div class="demo-result"><small>入力結果</small><strong>半角スペース</strong></div>
+      </div>
+      <p>日本語入力中だけ変換。英数入力や修飾キー付きSpaceには介入しません。</p>
+    </section>
+
+    <section class="trust" aria-label="安心して使える理由">
+      <article><span>01</span><h2>入力内容を記録しません</h2><p>ネットワーク通信なし。キー入力の内容を保存・送信しません。</p></article>
+      <article><span>02</span><h2>すぐにON／OFF</h2><p>メニューバーから変換をいつでも切り替えられます。</p></article>
+      <article><span>03</span><h2>無料・オープンソース</h2><p>MIT Licenseでソースコードを公開しています。</p></article>
+    </section>
+
+    <section class="section" id="features">
+      <div class="section-heading"><p>FEATURES</p><h2>いつもの入力を、<br>少しだけ心地よく。</h2></div>
+      <div class="feature-grid">
+        <article><div class="feature-mark">H</div><h3>日本語入力中だけ変換</h3><p>普通のSpaceを半角スペースへ変換します。英数入力中は何も変えません。</p></article>
+        <article><div class="feature-mark">H−</div><h3>ワンクリックで停止</h3><p>メニューバーのアイコンから、変換をその場でON／OFFできます。</p></article>
+        <article><div class="feature-mark">H!</div><h3>状態がひと目で分かる</h3><p>有効、無効、権限なしをメニューバーの表示で確認できます。</p></article>
+        <article><div class="feature-mark">⌘</div><h3>ショートカットを邪魔しない</h3><p>Shift、Command、Option、Control、Fn付きSpaceは変換しません。</p></article>
+      </div>
+    </section>
+
+    <section class="section install" id="install">
+      <div class="section-heading"><p>INSTALL</p><h2>3ステップで<br>使い始められます。</h2></div>
+      <ol class="steps">
+        <li><span>1</span><div><h3>DMGを開く</h3><p>ダウンロードしたHankakuSpace.dmgをダブルクリックします。</p></div></li>
+        <li><span>2</span><div><h3>Applicationsへ移動</h3><p>Hankaku SpaceをApplicationsフォルダへドラッグします。</p></div></li>
+        <li><span>3</span><div><h3>権限を許可</h3><p>初回起動時に、システム設定からアクセシビリティ権限を許可します。</p></div></li>
+      </ol>
+      <aside class="notice"><strong>初回起動について</strong><p>現在の配布版はDeveloper ID署名・Appleの公証を行っていません。macOSのセキュリティ確認が表示された場合は、「システム設定」→「プライバシーとセキュリティ」から「このまま開く」を選んでください。</p></aside>
+    </section>
+
+    <section class="section faq" id="faq">
+      <div class="section-heading"><p>FAQ</p><h2>よくある質問</h2></div>
+      <div class="faq-list">
+        <details><summary>無料で使えますか？</summary><p>はい。Hankaku Spaceは無料で利用できるオープンソースアプリです。</p></details>
+        <details><summary>入力した文字は収集されますか？</summary><p>収集されません。ネットワーク通信を行わず、入力内容を保存・送信しません。</p></details>
+        <details><summary>Intel Macでも使えますか？</summary><p>現在のバージョンはApple Silicon搭載Mac（M1以降）専用です。</p></details>
+        <details><summary>権限を許可しても動かない場合は？</summary><p>アクセシビリティ一覧から古いHankaku Spaceを削除し、Applicationsにある現在のアプリを追加し直してください。</p></details>
+      </div>
+    </section>
+
+    <section class="final-cta">
+      <img src="HankakuSpace/Artwork/AppIcon-source.png" alt="">
+      <div><p>HANKAKU SPACE 1.0.0</p><h2>Space入力を、もっと自然に。</h2></div>
+      <a class="primary-button" href="https://github.com/matcha-gumii/hankaku-space/releases/latest/download/HankakuSpace.dmg">無料でダウンロード ↓</a>
+    </section>
+  </main>
+
+  <footer>
+    <p><strong>Matcha Gumii</strong><br><span>Small tools for everyday comfort.</span></p>
+    <div><a href="https://github.com/matcha-gumii/hankaku-space">GitHub</a><a href="https://github.com/matcha-gumii/hankaku-space/blob/main/LICENSE">MIT License</a></div>
+    <small>© 2026 Matcha Gumii</small>
+  </footer>
+</body>
+</html>
