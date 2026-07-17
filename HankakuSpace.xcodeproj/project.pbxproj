@@ -1,0 +1,212 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		010000000000000000000001 /* HankakuSpaceApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020000000000000000000001 /* HankakuSpaceApp.swift */; };
+		010000000000000000000002 /* AppModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020000000000000000000002 /* AppModel.swift */; };
+		010000000000000000000003 /* AppSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020000000000000000000003 /* AppSettings.swift */; };
+		010000000000000000000004 /* AppLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020000000000000000000004 /* AppLogger.swift */; };
+		010000000000000000000005 /* MenuBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020000000000000000000005 /* MenuBarView.swift */; };
+		010000000000000000000006 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020000000000000000000006 /* SettingsView.swift */; };
+		010000000000000000000007 /* KeyboardMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020000000000000000000007 /* KeyboardMonitor.swift */; };
+		010000000000000000000008 /* InputSourceMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020000000000000000000008 /* InputSourceMonitor.swift */; };
+		010000000000000000000009 /* PermissionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020000000000000000000009 /* PermissionManager.swift */; };
+		01000000000000000000000A /* LoginItemManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02000000000000000000000A /* LoginItemManager.swift */; };
+		01000000000000000000000B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02000000000000000000000D /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		020000000000000000000001 /* HankakuSpaceApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HankakuSpaceApp.swift; sourceTree = "<group>"; };
+		020000000000000000000002 /* AppModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppModel.swift; sourceTree = "<group>"; };
+		020000000000000000000003 /* AppSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSettings.swift; sourceTree = "<group>"; };
+		020000000000000000000004 /* AppLogger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppLogger.swift; sourceTree = "<group>"; };
+		020000000000000000000005 /* MenuBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuBarView.swift; sourceTree = "<group>"; };
+		020000000000000000000006 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		020000000000000000000007 /* KeyboardMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardMonitor.swift; sourceTree = "<group>"; };
+		020000000000000000000008 /* InputSourceMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputSourceMonitor.swift; sourceTree = "<group>"; };
+		020000000000000000000009 /* PermissionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PermissionManager.swift; sourceTree = "<group>"; };
+		02000000000000000000000A /* LoginItemManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginItemManager.swift; sourceTree = "<group>"; };
+		02000000000000000000000B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		02000000000000000000000C /* HankakuSpace.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HankakuSpace.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		02000000000000000000000D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		030000000000000000000001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = ();
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		040000000000000000000001 = {
+			isa = PBXGroup;
+			children = (
+				040000000000000000000002 /* HankakuSpace */,
+				040000000000000000000003 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		040000000000000000000002 /* HankakuSpace */ = {
+			isa = PBXGroup;
+			children = (
+				020000000000000000000001 /* HankakuSpaceApp.swift */,
+				020000000000000000000002 /* AppModel.swift */,
+				020000000000000000000003 /* AppSettings.swift */,
+				020000000000000000000004 /* AppLogger.swift */,
+				020000000000000000000005 /* MenuBarView.swift */,
+				020000000000000000000006 /* SettingsView.swift */,
+				020000000000000000000007 /* KeyboardMonitor.swift */,
+				020000000000000000000008 /* InputSourceMonitor.swift */,
+				020000000000000000000009 /* PermissionManager.swift */,
+				02000000000000000000000A /* LoginItemManager.swift */,
+				02000000000000000000000B /* Info.plist */,
+				02000000000000000000000D /* Assets.xcassets */,
+			);
+			path = HankakuSpace;
+			sourceTree = "<group>";
+		};
+		040000000000000000000003 /* Products */ = {
+			isa = PBXGroup;
+			children = (02000000000000000000000C /* HankakuSpace.app */);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		050000000000000000000001 /* HankakuSpace */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A0000000000000000000002 /* Build configuration list for PBXNativeTarget */;
+			buildPhases = (
+				080000000000000000000001 /* Sources */,
+				030000000000000000000001 /* Frameworks */,
+				070000000000000000000001 /* Resources */,
+			);
+			buildRules = ();
+			dependencies = ();
+			name = HankakuSpace;
+			productName = HankakuSpace;
+			productReference = 02000000000000000000000C /* HankakuSpace.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		060000000000000000000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2600;
+				LastUpgradeCheck = 2600;
+				TargetAttributes = {050000000000000000000001 = {CreatedOnToolsVersion = 26.0;};};
+			};
+			buildConfigurationList = 0A0000000000000000000001 /* Build configuration list for PBXProject */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = ja;
+			hasScannedForEncodings = 0;
+			knownRegions = (ja, en, Base);
+			mainGroup = 040000000000000000000001;
+			productRefGroup = 040000000000000000000003 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (050000000000000000000001 /* HankakuSpace */);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		070000000000000000000001 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01000000000000000000000B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		080000000000000000000001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				010000000000000000000001 /* HankakuSpaceApp.swift in Sources */,
+				010000000000000000000002 /* AppModel.swift in Sources */,
+				010000000000000000000003 /* AppSettings.swift in Sources */,
+				010000000000000000000004 /* AppLogger.swift in Sources */,
+				010000000000000000000005 /* MenuBarView.swift in Sources */,
+				010000000000000000000006 /* SettingsView.swift in Sources */,
+				010000000000000000000007 /* KeyboardMonitor.swift in Sources */,
+				010000000000000000000008 /* InputSourceMonitor.swift in Sources */,
+				010000000000000000000009 /* PermissionManager.swift in Sources */,
+				01000000000000000000000A /* LoginItemManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		090000000000000000000001 /* Debug */ = {isa = XCBuildConfiguration; buildSettings = {
+			CLANG_ENABLE_MODULES = YES;
+			MACOSX_DEPLOYMENT_TARGET = 26.0;
+			SDKROOT = macosx;
+			SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+			SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+		}; name = Debug; };
+		090000000000000000000002 /* Release */ = {isa = XCBuildConfiguration; buildSettings = {
+			CLANG_ENABLE_MODULES = YES;
+			MACOSX_DEPLOYMENT_TARGET = 26.0;
+			SDKROOT = macosx;
+			SWIFT_COMPILATION_MODE = wholemodule;
+		}; name = Release; };
+		090000000000000000000003 /* Debug */ = {isa = XCBuildConfiguration; buildSettings = {
+			ARCHS = arm64;
+			ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+			CODE_SIGN_IDENTITY = "-";
+			CODE_SIGN_STYLE = Manual;
+			COMBINE_HIDPI_IMAGES = YES;
+			CURRENT_PROJECT_VERSION = 1;
+			ENABLE_APP_SANDBOX = NO;
+			ENABLE_HARDENED_RUNTIME = YES;
+			GENERATE_INFOPLIST_FILE = NO;
+			INFOPLIST_FILE = HankakuSpace/Info.plist;
+			LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+			MARKETING_VERSION = 1.0.0;
+			PRODUCT_BUNDLE_IDENTIFIER = jp.local.HankakuSpace;
+			PRODUCT_NAME = "$(TARGET_NAME)";
+			SWIFT_EMIT_LOC_STRINGS = YES;
+			SWIFT_VERSION = 5.0;
+		}; name = Debug; };
+		090000000000000000000004 /* Release */ = {isa = XCBuildConfiguration; buildSettings = {
+			ARCHS = arm64;
+			ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+			CODE_SIGN_IDENTITY = "-";
+			CODE_SIGN_STYLE = Manual;
+			COMBINE_HIDPI_IMAGES = YES;
+			CURRENT_PROJECT_VERSION = 1;
+			ENABLE_APP_SANDBOX = NO;
+			ENABLE_HARDENED_RUNTIME = YES;
+			GENERATE_INFOPLIST_FILE = NO;
+			INFOPLIST_FILE = HankakuSpace/Info.plist;
+			LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+			MARKETING_VERSION = 1.0.0;
+			PRODUCT_BUNDLE_IDENTIFIER = jp.local.HankakuSpace;
+			PRODUCT_NAME = "$(TARGET_NAME)";
+			SWIFT_EMIT_LOC_STRINGS = YES;
+			SWIFT_VERSION = 5.0;
+		}; name = Release; };
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0A0000000000000000000001 /* Build configuration list for PBXProject */ = {isa = XCConfigurationList; buildConfigurations = (090000000000000000000001, 090000000000000000000002); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+		0A0000000000000000000002 /* Build configuration list for PBXNativeTarget */ = {isa = XCConfigurationList; buildConfigurations = (090000000000000000000003, 090000000000000000000004); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+/* End XCConfigurationList section */
+	};
+	rootObject = 060000000000000000000001 /* Project object */;
+}
