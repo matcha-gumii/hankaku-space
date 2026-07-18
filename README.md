@@ -1,5 +1,7 @@
 # Hankaku Space
 
+[日本語](README.md) | [English](README_EN.md)
+
 日本語入力中でも、普通に `Space` を押すだけで半角スペースを入力できるMac用メニューバーアプリです。
 
 日本語入力と英数入力を切り替える手間を減らしつつ、修飾キー付きのSpaceや英数入力中のSpaceには介入しません。
